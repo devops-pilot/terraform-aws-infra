@@ -25,7 +25,6 @@ terraform-aws-infra/
 │   ├── vpc/
 │   ├── ec2/
 │   ├── alb/
-│   ├── asg/
 │   └── eks/
 ├── environments/
 │   └── dev/
