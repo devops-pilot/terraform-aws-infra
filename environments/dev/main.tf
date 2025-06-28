@@ -15,7 +15,8 @@ module "eks" {
   cluster_name    = "devops-eks"
   cluster_version = "1.27"
   vpc_id          = module.vpc.vpc_id
-  subnets         = ["subnet-1", "subnet-2"]  # Replace with actual private subnet IDs
+  subnet_ids      = ["subnet-xxxxxxxx", "subnet-yyyyyyyy"]  # Use actual private subnet IDs
+  project         = "devops-lab"
 }
 
 # ✅ EC2
